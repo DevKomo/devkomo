@@ -1,0 +1,7 @@
+/* CUSTOM STYLESHEET FOR DEVKOMO WEBSITE
+CREATED BY DEVKOMO, KOW AHENASI AMONOO
+*/
+
+.jumbotron {
+    padding-top: 100px;
+}

@@ -1,0 +1,342 @@
+/* CUSTOM STYLESHEET FOR DEVKOMO WEBSITE
+   CREATED BY DEVKOMO-KOW AHENASI AMONOO
+   www.devkomo.tk
+
+=========================
+    Table of Contents
+=========================
+1. defaults
+2. navigation
+3. home/jumbotron
+4. about me
+5. services
+6. portfolio
+7. contacts
+8. footer
+
+*/
+
+
+/*--- 1. defaults ---*/
+@font-face {
+  font-family: 'Museo';
+  src: url('/fonts/museo700regular.eot') format('eot'), /* IE9 Compat Modes */
+  src: url('/fonts/museo700regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/museo700-Regular.otf') format('otf'),
+       url('/fonts/museo700regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+body, html  {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: #338839;
+}
+
+a:focus, a:hover {
+    color: #338839;
+    text-decoration: underline
+}
+
+.btn {
+    border-radius: 0;
+}
+
+hr {
+    border: 1px solid #338839;
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    color: #338839;
+    font-family: 'Museo', serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #e9e8e8;
+    line-height: 1.8;
+}
+
+.about-section, .contacts-section,
+.portfolio-section, .services-section {
+    background: #e9e8e8;
+    color: #338839;
+    min-height: 450px;
+    padding-top: 40px;
+}
+
+.about-section h2 + p, .contacts-section h2 + p,
+.portfolio-section h2 + p, .services-section h2 + p {
+    color: #474746;
+}
+
+/*--- END DEFAULTS ---*/
+
+
+/*--- 2. NAVIGATION ---*/
+.navbar-brand {
+    font-family: "Museo", serif;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #338839;
+}
+
+.navbar.navbar-fixed-top.navbar-inverse {
+    box-shadow: 3px 2px 2px #338839;
+}
+/*--- END NAVIGATION ---*/
+
+
+/*--- 3. HOME/JUMBOTRON ---*/
+.home-section {
+    background: #fff;
+    height: 100%;
+    text-align: center;
+
+}
+
+a.btn.btn-primary {
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #474646;
+    border-radius: 0;
+    color: #474746;
+    width: 186px;
+
+}
+
+a.btn.btn-primary:hover {
+    background-color: #338839;
+    border: #338839;
+    color: #e9e8e8;
+
+}
+
+.jumbotron {
+    background: url(../img/home-bg.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    color: #338839;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.jumbotron h4 {
+    color: #474746;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.jumbotron img {
+    margin-top: 60px;
+}
+/*--- END HOME/JUMBOTRON ---*/
+
+
+/*--- 4. ABOUT ME ---*/
+.about {
+    background-color: #474746;
+    color: #e9e8e8;
+    height: 350px;
+    padding-top: 30px
+}
+
+.about-section img {
+    margin-bottom: 20px;
+}
+
+
+
+/*--- END ABOUT ME ---*/
+
+
+/*--- 5. SERVICES ---*/
+.services {
+    background-color: #338839;
+    color: #e9e8e8;
+    height: 350px;
+    padding-top: 30px;
+}
+
+.services-section h3 {
+    padding-top: 0;
+    color: #474746;
+}
+
+.service-icon {
+    background: transparent url(../img/services-sprite.png) no-repeat;
+    background-position: 0 top;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+
+}
+
+.idesign {
+    background-position: 0;
+}
+
+.iprint {
+    background-position: -70px;
+    width: 70px;
+}
+
+.iweb {
+    background-position: -140px top;
+}
+/*--- END SERVICES ---*/
+
+
+/*--- 6. PORTFOLIO ---*/
+.carousel {
+    background-color: #474746;
+    height: 350px;
+
+}
+
+.carousel-inner {
+    position: absolute;
+}
+
+.carousel-caption h3 {
+    color: #338839;
+    margin-bottom: 0;
+}
+
+.carousel-caption h3,
+.carousel-caption p,
+.carousel-caption small {
+    text-shadow: none;
+}
+
+.carousel-caption p,
+.carousel-caption small {
+    color: #e9e9e8;
+}
+
+.carousel-caption {
+    position: relative;
+    margin-top: 150px;
+
+}
+
+.carousel-inner img {
+    margin-right: 170px;
+    margin-top: 63px;
+}
+
+/*--- END PORTFOLIO ---*/
+
+
+/*--- 7. CONTACTS ---*/
+.contacts {
+    background-color: #338839;
+    color: #e9e8e8;
+    height: 350px;
+    padding-top: 25px;
+}
+
+address a {
+    color: #e9e8e8;
+}
+
+address a:hover,
+address a:focus {
+    color: #474746;
+    text-decoration: underline;
+}
+
+address {
+    margin-top: 60px;
+}
+
+.facebook {
+    background-color: #2272a9;
+}
+
+.google {
+    background-color: #db4a39;
+}
+
+.twitter {
+    background-color: #569ccd;
+}
+
+.facebook:focus, .facebook:hover {
+    background-color: #1f699c;
+}
+
+.google:focus, .google:hover {
+    background-color: #cf4636;
+}
+
+.twitter:focus, .twitter:hover {
+    background-color: #5192c0;
+}
+
+.facebook, .google, .twitter {
+    border: 0;
+    color: #e9e8e8;
+    margin-right: 5px;
+}
+
+.social {
+    padding-top: 10px;
+}
+
+.social-sprite {
+    background: transparent url(../img/social-sprite.png) no-repeat;
+    background-position: left top;
+    display: inline-block;
+    height: 16px;
+
+
+}
+
+.social-sprite.facebook {
+    background-position: 0px top;
+    width: 8px;
+}
+
+.social-sprite.google {
+    background-position: -8px top;
+}
+
+.social-sprite.twitter {
+    background-position: -24px top;
+}
+
+.social-sprite.google,
+.social-sprite.twitter {
+    width: 16px;
+}
+
+/*--- END CONTACTS ---*/
+
+
+/*--- 8. FOOTER ---*/
+footer {
+    min-height: 180px;
+    padding: 50px;
+}
+
+
+.small, small{
+    padding-top: 18px;
+}
+/*--- END FOOTER ---*/
+
+
+
